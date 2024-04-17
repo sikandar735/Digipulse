@@ -2897,7 +2897,7 @@ img.lazy-image.loaded {
   display: block;
   font-size: 18px;
   line-height: 1.5em;
-  color: #8e9aa4;
+  color: #dadada;
   font-weight: 700;
   padding-bottom: 27px;
   margin-bottom: 30px;
@@ -5823,7 +5823,7 @@ img.lazy-image.loaded {
   position: relative;
   display: block;
   font-family: "Gilroy-Bold", sans-serif;
-  font-size: 30px;
+  font-size: 18px;
   color: #ffffff;
   padding-left: 50px;
 }
@@ -7227,6 +7227,29 @@ img.lazy-image.loaded {
   display: block;
   padding: 0px 5px 0px 25px;
 }
+
+.check-circle {
+  display: inline-block;
+  width: 12px; /* Adjust size as needed */
+  height: 12px; /* Adjust size as needed */
+  border-radius: 50%;
+  border: 1px solid #ffa500; /* Orange border color */
+  margin-right: 10px; /* Adjust spacing between circle and text */
+  position: relative;
+}
+
+.check-circle.checked {
+  background-color: #ffa500; /* Orange background color */
+}
+
+.check-circle i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Icon color */
+}
+
 
 .news-block .lower-box .category {
   position: relative;

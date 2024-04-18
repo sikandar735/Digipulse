@@ -5800,6 +5800,7 @@ img.lazy-image.loaded {
   display: table;
   width: 100%;
   vertical-align: middle;
+  padding: 20px 0;
 }
 
 .main-footer .footer-bottom .info-block {
@@ -10325,29 +10326,34 @@ img.lazy-image.loaded {
   padding: 120px 0px 90px;
 }
 
-.portfolio-section-four .gallery-item-two .inner-box {
+.portfolio-section-services {
+  position: relative;
+  padding: 20px 0px 90px;
+}
+
+.portfolio-section-services .portfolio-section-four .gallery-item-two .inner-box {
   padding: 30px 25px 0px;
   background: #f2f9ff;
   overflow: hidden;
 }
 
-.portfolio-section-four .gallery-item-two .image {
+.portfolio-section-services .portfolio-section-four .gallery-item-two .image {
   box-shadow: 0px -3px 15px 0px rgba(0, 0, 0, 0.2);
 }
 
-.portfolio-section-four .gallery-item-two:nth-child(2) .inner-box,
-.portfolio-section-four .gallery-item-two:nth-child(5) .inner-box,
-.portfolio-section-four .gallery-item-two:nth-child(8) .inner-box,
-.portfolio-section-four .gallery-item-two:nth-child(11) .inner-box,
-.portfolio-section-four .gallery-item-two:nth-child(14) .inner-box {
+.portfolio-section-services .portfolio-section-four .gallery-item-two:nth-child(2) .inner-box,
+.portfolio-section-services .portfolio-section-four .gallery-item-two:nth-child(5) .inner-box,
+.portfolio-section-services .portfolio-section-four .gallery-item-two:nth-child(8) .inner-box,
+.portfolio-section-services .portfolio-section-four .gallery-item-two:nth-child(11) .inner-box,
+.portfolio-section-services .portfolio-section-four .gallery-item-two:nth-child(14) .inner-box {
   background: #ffe7da;
 }
 
-.portfolio-section-four .gallery-item-two:nth-child(3) .inner-box,
-.portfolio-section-four .gallery-item-two:nth-child(6) .inner-box,
-.portfolio-section-four .gallery-item-two:nth-child(9) .inner-box,
-.portfolio-section-four .gallery-item-two:nth-child(12) .inner-box,
-.portfolio-section-four .gallery-item-two:nth-child(15) .inner-box {
+.portfolio-section-services .portfolio-section-four .gallery-item-two:nth-child(3) .inner-box,
+.portfolio-section-services .portfolio-section-four .gallery-item-two:nth-child(6) .inner-box,
+.portfolio-section-services .portfolio-section-four .gallery-item-two:nth-child(9) .inner-box,
+.portfolio-section-services .portfolio-section-four .gallery-item-two:nth-child(12) .inner-box,
+.portfolio-section-services .portfolio-section-four .gallery-item-two:nth-child(15) .inner-box {
   background: #e1ffee;
 }
 
@@ -13474,3 +13480,22 @@ img.lazy-image.loaded {
 .header-logo-img {
   margin: 12px 0;
 }
+
+
+/* .header-style-one {
+  position: fixed;
+  left: 0;
+  top: 0px !important;
+  width: 100%;
+  background: #222222 !important;
+  } */
+
+  .footer-social-media-icons{
+  border: 1px solid white;
+  padding: 4px;
+  border-radius: 20%;
+  font-size: 13px;
+  color: #fff;
+  }
+
+  

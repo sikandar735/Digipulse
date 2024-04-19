@@ -310,6 +310,15 @@ figure {
 }
 
 .btn-style-two .btn-title {
+  /* 
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  color: #5a8299;
+  font-weight: 700;
+  padding: 13px 40px;
+  background: none; */
   position: relative;
   display: block;
   font-size: 14px;
@@ -4410,7 +4419,7 @@ img.lazy-image.loaded {
 }
 
 .portfolio-section.alt-padding {
-  padding: 120px 0px 110px;
+  padding: 60px 0px 60px;
   background: #ffffff;
 }
 
@@ -9897,9 +9906,9 @@ img.lazy-image.loaded {
   margin: 0 20px 20px 0px;
 }
 
-.featured-service .text-column .link-box .btn-style-two .btn-title {
+/* .featured-service .text-column .link-box .btn-style-two .btn-title {
   font-size: 20px;
-}
+} */
 
 /*** 
 
@@ -10335,7 +10344,7 @@ img.lazy-image.loaded {
 
 .portfolio-section-services {
   position: relative;
-  padding: 20px 0px 90px;
+  padding: 20px 0px 60px;
 }
 
 .portfolio-section-services .portfolio-section-four .gallery-item-two .inner-box {

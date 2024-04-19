@@ -13520,4 +13520,14 @@ img.lazy-image.loaded {
       overflow: hidden !important;
     }
   }
+
+  .overlay-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 1; /* Ensure image is above video */
+  }
+  
   

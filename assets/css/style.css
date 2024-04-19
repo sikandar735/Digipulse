@@ -5087,6 +5087,12 @@ img.lazy-image.loaded {
   width: 250px;
   height: 250px;
   border-radius: 50%;
+  object-fit: cover;
+
+}
+.testimonial-block .content .image img{
+  width: 100%;
+  height: 100%;
 }
 
 .testimonial-block .content .icon-box {

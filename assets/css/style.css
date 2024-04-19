@@ -4156,7 +4156,7 @@ img.lazy-image.loaded {
 .service-block .inner-box {
   position: relative;
   display: block;
-  padding: 70px 20px;
+  padding: 15px 20px;
   text-align: center;
   border: 2px solid rgba(255, 255, 255, 0.1);
   overflow: hidden;
@@ -13499,4 +13499,26 @@ img.lazy-image.loaded {
   color: #fff;
   }
 
+  .card-read-more{
+    color: #ff6000;
+  }
+  .card-read-more:hover{
+    color: #fff;
+  }
+
+  .vide-section{
+    max-width: 100%; 
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  @media only screen and (min-width: 300px) and (max-width: 600px) {
+    /* CSS rules for screens between 300px and 600px wide */
+    .vide-section {
+      width: 100% !important;
+      height: auto !important;
+      overflow: hidden !important;
+    }
+  }
   

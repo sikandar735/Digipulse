@@ -85,7 +85,7 @@
                   <nav class="main-menu navbar-expand-md navbar-light">
                     <div class="collapse navbar-collapse show clearfix">
                       <ul class="navigation clearfix">
-                        <li class="current"><a href="index.html">Home</a></li>
+                        <li class=""><a href="index.html">Home</a></li>
                         <li class=""><a href="about.html">About</a></li>
                         <li class="">
                           <a href="services.html">Our services</a>
@@ -93,7 +93,9 @@
                         <li class="">
                           <a href="portfolio.html">Portfolio</a>
                         </li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li class="current">
+                          <a href="contact.html">Contact</a>
+                        </li>
                       </ul>
                     </div>
                   </nav>
@@ -106,16 +108,6 @@
                 <div class="max-nav-toggler">
                   <button class="theme-btn toggle-btn" fdprocessedid="ssjc0h">
                     <span class="flaticon-menu-2"></span>
-                  </button>
-                </div>
-                <!--Search Btn-->
-                <div class="search-btn">
-                  <button
-                    type="button"
-                    class="theme-btn search-toggler"
-                    fdprocessedid="e9nht"
-                  >
-                    <span class="icon flaticon-loupe-2"></span>
                   </button>
                 </div>
               </div>
@@ -224,43 +216,6 @@
       </header>
       <!-- End Main Header -->
 
-      <!--Search Popup-->
-      <div id="search-popup" class="search-popup">
-        <div class="close-search theme-btn">
-          <span class="flaticon-targeting-cross"></span>
-        </div>
-        <div class="popup-inner">
-          <div class="overlay-layer"></div>
-          <div class="search-form">
-            <form method="post" action="index.html">
-              <div class="form-group">
-                <fieldset>
-                  <input
-                    type="search"
-                    class="form-control"
-                    name="search-input"
-                    value=""
-                    placeholder="Search Here"
-                    required=""
-                  />
-                  <input type="submit" value="Search Now!" class="theme-btn" />
-                </fieldset>
-              </div>
-            </form>
-
-            <br />
-            <h3>Recent Search Keywords</h3>
-            <ul class="recent-searches">
-              <li><a href="#">Finance</a></li>
-              <li><a href="#">Idea</a></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Growth</a></li>
-              <li><a href="#">Plan</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
       <!-- Hidden Navigation Bar -->
       <section class="hidden-bar right-align">
         <div class="hidden-bar-closer">
@@ -305,22 +260,14 @@
                 <h2>Contact Info</h2>
                 <ul class="list-style-two">
                   <li>
-                    <span class="icon fa fa-map-marker-alt"></span>501 Buckeye
-                    Crt, Unit 20, Milton - ON L9E1P3, Canada
-                  </li>
-                  <li>
-                    <span class="icon fa fa-phone-alt"></span
-                    ><a href="tel:+16478325796">+1 (647)-832-5796</a>
+                    <span class="icon fa fa-phone"></span
+                    ><a href="tel:16478325796-0234">+1 (647)-832-5796</a>
                   </li>
                   <li>
                     <span class="icon fa fa-envelope-open"></span>
                     <a href="mailto:info@thedigitalpulse.ca"
                       >info@thedigitalpulse.ca</a
                     >
-                  </li>
-                  <li>
-                    <span class="icon fa fa-clock"></span>Week Days: 09.00 to
-                    18.00 Sunday: Closed
                   </li>
                 </ul>
               </div>
@@ -475,7 +422,7 @@
               <div class="inner">
                 <div class="sec-title left-aligned">
                   <div class="sub-title">get in touch</div>
-                  <h2>drop us a line with estimate</h2>
+                  <h2>Reach Out Today!</h2>
                 </div>
                 <div class="form-box">
                   <div class="default-form contact-form">
@@ -536,27 +483,6 @@
                       </div>
                     </form>
                   </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="map-column col-lg-6 col-md-12">
-              <div class="inner">
-                <!--Map Box-->
-                <div class="map-box">
-                  <!-- map start -->
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19121050.103088997!2d-116.75822678950786!3d54.19579099785685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0d03d337cc6ad9%3A0x9968b72aa2438fa5!2sCanada!5e0!3m2!1sen!2s!4v1713355457609!5m2!1sen!2s"
-                    style="
-                      border: 0;
-                      width: 100% !important;
-                      height: 50vh !important;
-                    "
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                  ></iframe>
-                  <!-- map end -->
                 </div>
               </div>
             </div>
@@ -631,11 +557,11 @@
                     <div class="row clearfix">
                       <div class="col-lg-5 col-md-6 col-sm-12">
                         <ul>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">About</a></li>
-                          <li><a href="#">Services</a></li>
-                          <li><a href="#">Contact</a></li>
-                          <li><a href="#">Pricing</a></li>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="services.html">Services</a></li>
+                          <li><a href="portfolio.html">Portfolio</a></li>
+                          <li><a href="contact.html">Contact</a></li>
                         </ul>
                       </div>
                       <div class="col-lg-7 col-md-6 col-sm-12">
@@ -676,11 +602,17 @@
                           ><i
                             class="flaticon-placeholder footer-social-media-icons"
                           ></i>
-                          <strong>Address: </strong
-                          ><a href="#"
-                            >501 Buckeye Crt, Unit 20, Milton - ON L9E1P3,
-                            Canada</a
-                          ></a
+                          <strong>Canada Office: </strong
+                          ><a href="#">Milton, Ontario</a></a
+                        >
+                      </li>
+                      <li>
+                        <a href=""
+                          ><i
+                            class="flaticon-placeholder footer-social-media-icons"
+                          ></i>
+                          <strong>USA Office: </strong
+                          ><a href="#"> Austin, Texas</a></a
                         >
                       </li>
                     </ul>
@@ -696,8 +628,10 @@
             <div class="outer-table clearfix text-center">
               <span class=""
                 >Copyright ©2024
-                <strong class="text-white"><a href="#">Digipulse</a></strong> ,
-                All Rights Reserved</span
+                <strong class="text-white"
+                  ><a href="#">The Digital Pulse</a></strong
+                >
+                , All Rights Reserved</span
               >
             </div>
           </div>

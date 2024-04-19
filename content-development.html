@@ -122,16 +122,6 @@
                     <span class="flaticon-menu-2"></span>
                   </button>
                 </div>
-                <!--Search Btn-->
-                <div class="search-btn">
-                  <button
-                    type="button"
-                    class="theme-btn search-toggler"
-                    fdprocessedid="e9nht"
-                  >
-                    <span class="icon flaticon-loupe-2"></span>
-                  </button>
-                </div>
               </div>
             </div>
           </div>
@@ -238,46 +228,6 @@
       </header>
       <!-- End Main Header -->
 
-      <!--Search Popup-->
-      <div id="search-popup" class="search-popup">
-        <div class="close-search theme-btn">
-          <span class="flaticon-targeting-cross"></span>
-        </div>
-        <div class="popup-inner">
-          <div class="overlay-layer"></div>
-          <div class="search-form">
-            <form
-              method="post"
-              action="https://t.commonsupport.com/callix/index.html"
-            >
-              <div class="form-group">
-                <fieldset>
-                  <input
-                    type="search"
-                    class="form-control"
-                    name="search-input"
-                    value=""
-                    placeholder="Search Here"
-                    required
-                  />
-                  <input type="submit" value="Search Now!" class="theme-btn" />
-                </fieldset>
-              </div>
-            </form>
-
-            <br />
-            <h3>Recent Search Keywords</h3>
-            <ul class="recent-searches">
-              <li><a href="#">Finance</a></li>
-              <li><a href="#">Idea</a></li>
-              <li><a href="#">Service</a></li>
-              <li><a href="#">Growth</a></li>
-              <li><a href="#">Plan</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
       <!-- Hidden Navigation Bar -->
       <section class="hidden-bar right-align">
         <div class="hidden-bar-closer">
@@ -308,22 +258,14 @@
             <h2>Contact Info</h2>
             <ul class="list-style-two">
               <li>
-                <span class="icon fa fa-map-marker-alt"></span>501 Buckeye Crt,
-                Unit 20, Milton - ON L9E1P3, Canada
-              </li>
-              <li>
-                <span class="icon fa fa-phone-alt"></span
-                ><a href="tel:+16478325796">+1 (647)-832-5796</a>
+                <span class="icon fa fa-phone"></span
+                ><a href="tel:16478325796-0234">+1 (647)-832-5796</a>
               </li>
               <li>
                 <span class="icon fa fa-envelope-open"></span>
                 <a href="mailto:info@thedigitalpulse.ca"
                   >info@thedigitalpulse.ca</a
                 >
-              </li>
-              <li>
-                <span class="icon fa fa-clock"></span>Week Days: 09.00 to 18.00
-                Sunday: Closed
               </li>
             </ul>
           </div>
@@ -359,11 +301,18 @@
                     <div class="inner-box">
                       <div class="image-box">
                         <figure class="image">
-                          <a href="#"
-                            ><img
+                          <div style="max-height: 500px; overflow: hidden">
+                            <img
                               src="./assets/images/resource/content-development.jpeg"
                               alt=""
-                          /></a>
+                              style="
+                                max-height: 500px;
+                                object-fit: cover;
+                                background-position: top;
+                                width: 100%;
+                              "
+                            />
+                          </div>
                         </figure>
                       </div>
                       <div class="lower-box">
@@ -505,11 +454,11 @@
                     <div class="row clearfix">
                       <div class="col-lg-5 col-md-6 col-sm-12">
                         <ul>
-                          <li><a href="#">Home</a></li>
-                          <li><a href="#">About</a></li>
-                          <li><a href="#">Services</a></li>
-                          <li><a href="#">Contact</a></li>
-                          <li><a href="#">Pricing</a></li>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="services.html">Services</a></li>
+                          <li><a href="portfolio.html">Portfolio</a></li>
+                          <li><a href="contact.html">Contact</a></li>
                         </ul>
                       </div>
                       <div class="col-lg-7 col-md-6 col-sm-12">
@@ -550,11 +499,17 @@
                           ><i
                             class="flaticon-placeholder footer-social-media-icons"
                           ></i>
-                          <strong>Address: </strong
-                          ><a href="#"
-                            >501 Buckeye Crt, Unit 20, Milton - ON L9E1P3,
-                            Canada</a
-                          ></a
+                          <strong>Canada Office: </strong
+                          ><a href="#">Milton, Ontario</a></a
+                        >
+                      </li>
+                      <li>
+                        <a href=""
+                          ><i
+                            class="flaticon-placeholder footer-social-media-icons"
+                          ></i>
+                          <strong>USA Office: </strong
+                          ><a href="#"> Austin, Texas</a></a
                         >
                       </li>
                     </ul>
@@ -570,8 +525,10 @@
             <div class="outer-table clearfix text-center">
               <span class=""
                 >Copyright ©2024
-                <strong class="text-white"><a href="#">Digipulse</a></strong> ,
-                All Rights Reserved</span
+                <strong class="text-white"
+                  ><a href="#">The Digital Pulse</a></strong
+                >
+                , All Rights Reserved</span
               >
             </div>
           </div>

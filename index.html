@@ -514,28 +514,23 @@
             </div>
             <!--Image Column-->
             <div class="image-column col-lg-7 col-md-12 col-sm-12">
-              <div class="inner">
-                <video
-                  class="wow fadeInRight vide-section"
-                  controls
-                  autoplay
-                  loop
-                  muted
-                  playsinline
-                  style="
-                    visibility: hidden;
-                    animation-name: none;
-                    width: 100%;
-                    height: auto;
-                  "
-                >
-                  <source
-                    src="./assets/images/resource/video.mp4"
-                    type="video/mp4"
-                  />
+
+            <!-- <div class="inner">
+              <video class="wow fadeInRight vide-section" id="video" controls autoplay loop muted playsinline style="visibility: hidden; animation-name: none; width: 100%; height: auto;">
+                <source src="./assets/images/resource/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video>
+              <img src="./assets/images/resource/video-overlay.jpeg" alt="" class="overlay-image" id="overlay-image">
+            </div> -->
+
+            <div class="inner">
+              <img id="overlay-image" src="./assets/images/resource/video-overlay.jpeg" alt="" class="overlay-image">
+              <video id="video" class="wow fadeInRight vide-section" controls autoplay loop muted playsinline style="visibility: hidden; animation-name: none; width: 100%; height: auto;">
+                  <source src="./assets/images/resource/video.mp4" type="video/mp4">
                   Your browser does not support the video tag.
-                </video>
-              </div>
+              </video>
+          </div>
+           
             </div>
           </div>
         </div>
@@ -1232,6 +1227,9 @@
       <span class="flaticon-up-arrow"></span>
     </div>
 
+    <!-- Include jQuery from a CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/popper.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
@@ -1246,6 +1244,17 @@
     <script src="./assets/js/wow.js"></script>
     <script src="./assets/js/element-in-view.js"></script>
     <script src="./assets/js/custom-script.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          document.getElementById("overlay-image").addEventListener("click", function() {
+              var video = document.getElementById("video");
+              this.style.display = "none"; // Hide the image
+              video.style.visibility = "visible"; // Make the video visible
+              video.play(); // Play the video
+          });
+      });
+    </script>
 
     <span id="PING_IFRAME_FORM_DETECTION" style="display: none"></span>
   </body>
